@@ -1,0 +1,21 @@
+{
+  "name": "geektrust-challenges-train",
+  "version": "1.0.0",
+  "description": "Solution for geektrust.in Train backend challenge",
+  "main": "geektrust.js",
+  "repository": "git@github.com:KManiKumarReddy/geektrust.in-challenges-Train.git",
+  "author": "Mani Kumar Reddy Kancharla <kmanikumarreddy@live.com> (https://www.kmanikumarreddy.com)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node geektrust.js",
+    "local": "node geektrust.js sample_in.txt",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.1"
+  }
+}
